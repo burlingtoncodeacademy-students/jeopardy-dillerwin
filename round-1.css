@@ -2,19 +2,14 @@ body {
   background-color: rgb(12, 65, 220);
 }
 
-.boardTop {
-  display: grid;
-  grid-template-columns: 10fr 1fr;
-}
-
 .headerboxes {
   display: grid;
-  grid-template-columns: 7fr 1fr 1fr;
+  grid-template-columns: 1 fr 2fr 5fr 2fr 1fr;
   align-content: center;
 }
 
 #titles {
-  grid-column: 1;
+  grid-column: 2;
 }
 
 h1 {
@@ -34,7 +29,6 @@ h2 {
 }
 
 .scoreBox {
-  grid-column-start: 3;
   color: red;
   display: flex;
   justify-content: flex-end;
@@ -42,7 +36,7 @@ h2 {
 
 #p1score {
   color: red;
-  grid-column-start: 2;
+  grid-column-start: 1;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -51,6 +45,7 @@ h2 {
 }
 
 #p2score {
+  color: red;
   grid-column-start: 3;
   display: flex;
   flex-direction: column;
