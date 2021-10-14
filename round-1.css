@@ -2,19 +2,59 @@ body {
   background-color: rgb(12, 65, 220);
 }
 
+.boardTop {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+}
+
+.headerboxes {
+  display: grid;
+  grid-template-columns: 7fr 1fr 1fr;
+  align-content: center;
+}
+
+#titles {
+  grid-column: 1;
+}
+
 h1 {
   display: flex;
-  position: relative;
+  font-size: 300%;
+  position: absolute;
   position: static;
   justify-content: center;
-  color: aliceblue;
+  color: yellow;
 }
 
 h2 {
   display: flex;
   position: relative;
   justify-content: center;
-  color: aliceblue;
+  color: yellow;
+}
+
+.scoreBox {
+  grid-column-start: 3;
+  color: red;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#p1score {
+  color: red;
+  grid-column-start: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* position: relative;
+  bottom: 15vh; */
+}
+
+#p2score {
+  grid-column-start: 3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .table {
@@ -81,6 +121,7 @@ h2 {
   grid-template-columns: 1fr 2fr 2fr 1fr;
   justify-content: center;
   text-align: center;
+  padding-top: 3vh;
   padding-bottom: 5vh;
 }
 
