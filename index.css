@@ -1,5 +1,5 @@
 body {
-  background-image: url("jeopardy.bmp");
+  background-image: url("jeopardyLogo.bmp");
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
@@ -20,11 +20,23 @@ h1 {
   bottom: 1cm;
 }
 
+div {
+  display: flex;
+  justify-content: center;
+}
+
 .start {
   border: 5px solid black;
-  color: black;
+  color: white;
   font-size: 600%;
-  background-color: white;
-  display: flex;
-  width:fit-content;
+  background-color: rgb(37, 39, 137);
+  position: relative;
+  top: 25vw;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
