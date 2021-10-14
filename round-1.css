@@ -2,6 +2,21 @@ body {
   background-color: rgb(12, 65, 220);
 }
 
+h1 {
+  display: flex;
+  position: relative;
+  position: static;
+  justify-content: center;
+  color: aliceblue;
+}
+
+h2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  color: aliceblue;
+}
+
 .table {
   display: grid;
   grid-template-rows: repeat(6, 10vh);
@@ -57,16 +72,6 @@ body {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
-}
-
-h1 {
-  display: flex;
-  position: relative;
-  position: static;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-  align-content: space-around;
 }
 
 #doubleJep {
