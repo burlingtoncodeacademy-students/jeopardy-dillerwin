@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jeopardy</title>
-</head>
-<body>
-  <h1>Double Jeopardy</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeopardy</title>
+    <link rel="stylesheet" href="doubleJeopardy.css" />
+  </head>
+  <div class="headerboxes">
+    <h3 id="p1score">
+      <div>Player One Score</div>
+      <div>0</div>
+    </h3>
+    <div id="titles">
+      <h1>Double Jeopardy!</h1>
+      <h2 id="questionAsker">It's ____'s turn to ask the question.</h2>
+    </div>
+    <h3 id="p2score">
+      <div>Player Two Score</div>
+      <div>0</div>
+    </h3>
+  </div>
+  <body>
+    <div class="table">
+      <div id="row1">
+        <!--Category row-->
+        <div>Category 1</div>
+        <div>Category 2</div>
+        <div>Category 3</div>
+        <div>Category 4</div>
+        <div>Category 5</div>
+        <div>Category 6</div>
+      </div>
+
+      <div id="row2">
+        <!-- 200$ row-->
+        <div>$200</div>
+        <div>$200</div>
+        <div>$200</div>
+        <div>$200</div>
+        <div>$200</div>
+        <div>$200</div>
+      </div>
+
+      <div id="row3">
+        <!-- 400$ row-->
+        <div>$400</div>
+        <div>$400</div>
+        <div>$400</div>
+        <div>$400</div>
+        <div>$400</div>
+        <div>$400</div>
+      </div>
+
+      <div id="row4">
+        <!-- 600$ row-->
+        <div>$600</div>
+        <div>$600</div>
+        <div>$600</div>
+        <div>$600</div>
+        <div>$600</div>
+        <div>$600</div>
+      </div>
+
+      <div id="row5">
+        <!--800$ row-->
+        <div>8400</div>
+        <div>8400</div>
+        <div>8400</div>
+        <div>8400</div>
+        <div>8400</div>
+        <div>8400</div>
+      </div>
+
+      <div id="row6">
+        <!-- 1000$ row-->
+        <div>$1000</div>
+        <div>$1000</div>
+        <div>$1000</div>
+        <div>$1000</div>
+        <div>$1000</div>
+        <div>$1000</div>
+      </div>
+    </div>
+    <div class="guessOrPass">
+      <div id="guess">Guess</div>
+      <div id="pass">Pass</div>
+    </div>
+  </body>
+  <a href="final-jeopardy.html" id="finalJep">Final Jeopardy</a>
 </html>
