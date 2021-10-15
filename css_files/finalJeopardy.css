@@ -1,4 +1,5 @@
 header {
+  /*defines header box and location*/
   display: flex;
   justify-content: center;
   color: yellow;
@@ -6,10 +7,12 @@ header {
 }
 
 body {
+  /*defines background color*/
   background-color: rgb(12, 65, 220);
 }
 
 .contentBox {
+  /* Defines box for final jeopardy question */
   display: flex;
   justify-content: center;
   padding-bottom: 1vw;
@@ -41,13 +44,11 @@ body {
 
 .bottomContent {
   display: flex;
-  align-content: center;
   justify-content: center;
-  text-align: center;
-  border: 2px dashed black;
+  padding-bottom: 1vw;
   font-size: 200%;
   color: yellow;
-  width: 50vw;
+  /* border: 2px dashed black; */
 }
 
 .buttonBoxes {
@@ -60,6 +61,14 @@ body {
   flex-direction: column;
   border: 1px dashed black;
   width: min-content;
+}
+
+#amount {
+  border: 1px dashed black;
+}
+
+#answer {
+  border: 1px dashed black;
 }
 
 #bet {
