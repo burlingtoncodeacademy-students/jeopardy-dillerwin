@@ -48,7 +48,6 @@ body {
   padding-bottom: 1vw;
   font-size: 200%;
   color: yellow;
-  /* border: 2px dashed black; */
 }
 
 .buttonBoxes {
@@ -59,19 +58,27 @@ body {
 #amount_answer {
   display: flex;
   flex-direction: column;
-  border: 1px dashed black;
-  width: min-content;
+  border: 0.1vh solid black;
+  border-right: none;
+  font-size: 150%;
 }
 
 #amount {
-  border: 1px dashed black;
+  border: 0.1vh solid black;
 }
 
 #answer {
-  border: 1px dashed black;
+  border: 0.1vh solid black;
 }
 
 #bet {
+  padding-top: 2vh;
   display: flex;
-  border: 1px dashed black;
+  border: 0.2vw solid black;
+  border-left: 0.2vw solid black;
+  border-right: 0.2vw solid black;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 200%;
 }
