@@ -4,7 +4,7 @@ body {
 
 .headerboxes {
   display: grid;
-  grid-template-columns: 1 fr 2fr 5fr 2fr 1fr;
+  grid-template-columns: 2fr 5fr 2fr;
   align-content: center;
 }
 
@@ -29,6 +29,7 @@ h2 {
 }
 
 #p1score {
+  padding: 0;
   color: red;
   grid-column-start: 1;
   display: flex;
@@ -59,13 +60,17 @@ h2 {
   height: 1fr;
 }
 
+span > div {
+  border-right: 5px dashed black;
+}
+
 #row1 {
   grid-row: 0;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 3px dashed black
+  border-bottom: 3px solid black;
 }
 
 #row2 {
@@ -74,8 +79,7 @@ h2 {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 3px dashed black
-
+  border-bottom: 3px solid black;
 }
 
 #row3 {
@@ -84,8 +88,7 @@ h2 {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 3px dashed black
-
+  border-bottom: 3px solid black;
 }
 
 #row4 {
@@ -94,8 +97,7 @@ h2 {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 3px dashed black
-
+  border-bottom: 3px solid black;
 }
 
 #row5 {
@@ -104,8 +106,7 @@ h2 {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 3px dashed black
-
+  border-bottom: 3px solid black;
 }
 
 #row6 {
@@ -118,7 +119,7 @@ h2 {
 
 .guessOrPass {
   color: yellow;
-  font-size: 150%;
+  font-size: 200%;
   display: grid;
   grid-template-columns: 1fr 2fr 2fr 1fr;
   justify-content: center;
