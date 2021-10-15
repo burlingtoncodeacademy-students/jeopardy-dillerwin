@@ -1,8 +1,68 @@
 header {
   display: flex;
   justify-content: center;
+  color: yellow;
+  font-size: 200%;
 }
 
-section {
-    
+body {
+  background-color: rgb(12, 65, 220);
+}
+
+.contentBox {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1vw;
+}
+
+#mainContent {
+  display: grid;
+  width: 50vw;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 8fr;
+  border: 0.5vw solid black;
+  text-align: center;
+  color: yellow;
+}
+
+.contentGrid:first-child {
+  border-bottom: 0.2vw solid black;
+  font-size: 300%;
+}
+
+.contentGrid:last-child {
+  display: flex;
+  word-wrap: break-word;
+  font-size: 400%;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottomContent {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px dashed black;
+  font-size: 200%;
+  color: yellow;
+  width: 50vw;
+}
+
+.buttonBoxes {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+#amount_answer {
+  display: flex;
+  flex-direction: column;
+  border: 1px dashed black;
+  width: min-content;
+}
+
+#bet {
+  display: flex;
+  border: 1px dashed black;
 }
