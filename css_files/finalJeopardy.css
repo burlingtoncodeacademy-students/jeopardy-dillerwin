@@ -69,7 +69,7 @@ body {
   font-size: 150%;
 }
 
-#amount {.
+#amount {
   /*amount box border*/
   border: 0.1vh solid black;
 }
@@ -91,6 +91,7 @@ body {
   text-align: center;
   font-size: 200%;
 }
-#bet.hover { /*attempt at hover color change on bet button, unsuccessful as yet*/
+#bet.hover {
+  /*attempt at hover color change on bet button, unsuccessful as yet*/
   background-color: rgb(243, 190, 35);
 }
