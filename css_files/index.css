@@ -1,4 +1,5 @@
 body {
+  /* background picture */
   background-image: url("../pictures/jeopardyLogo.bmp");
   background-color: #cccccc;
   background-repeat: no-repeat;
@@ -6,6 +7,7 @@ body {
 }
 
 h1 {
+  /*section for heading*/
   color: white;
   display: flex;
   align-items: center;
@@ -21,11 +23,13 @@ h1 {
 }
 
 div {
+  /* div around start box */
   display: flex;
   justify-content: center;
 }
 
 .start {
+  /*start button*/
   border: 5px solid black;
   color: white;
   font-size: 600%;
@@ -35,6 +39,7 @@ div {
 }
 
 a {
+  /* making start link not look like hyperlink*/
   color: white;
   text-decoration: none;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",

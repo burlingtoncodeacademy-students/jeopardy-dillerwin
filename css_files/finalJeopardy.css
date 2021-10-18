@@ -19,6 +19,7 @@ body {
 }
 
 #mainContent {
+  /*box for category and question*/
   display: grid;
   width: 50vw;
   grid-template-columns: 1fr;
@@ -29,11 +30,13 @@ body {
 }
 
 .contentGrid:first-child {
+  /*border for category box*/
   border-bottom: 0.2vw solid black;
   font-size: 300%;
 }
 
 .contentGrid:last-child {
+  /*border for question box*/
   display: flex;
   word-wrap: break-word;
   font-size: 400%;
@@ -43,6 +46,7 @@ body {
 }
 
 .bottomContent {
+  /* amount/answer/bet box*/
   display: flex;
   justify-content: center;
   padding-bottom: 1vw;
@@ -51,11 +55,13 @@ body {
 }
 
 .buttonBoxes {
+  /*grid setup for amount/answer/bet*/
   display: grid;
   grid-template-columns: 5fr 1fr;
 }
 
 #amount_answer {
+  /*amount/answer boxes*/
   display: flex;
   flex-direction: column;
   border: 0.1vh solid black;
@@ -63,15 +69,18 @@ body {
   font-size: 150%;
 }
 
-#amount {
+#amount {.
+  /*amount box border*/
   border: 0.1vh solid black;
 }
 
 #answer {
+  /*answer box border*/
   border: 0.1vh solid black;
 }
 
 #bet {
+  /*bet box and border*/
   padding-top: 2vh;
   display: flex;
   border: 0.2vw solid black;
@@ -81,4 +90,7 @@ body {
   justify-content: center;
   text-align: center;
   font-size: 200%;
+}
+#bet.hover { /*attempt at hover color change on bet button, unsuccessful as yet*/
+  background-color: rgb(243, 190, 35);
 }
