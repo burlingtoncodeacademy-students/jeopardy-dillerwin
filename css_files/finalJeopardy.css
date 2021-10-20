@@ -91,7 +91,9 @@ body {
   text-align: center;
   font-size: 200%;
 }
+
 #bet.hover {
   /*attempt at hover color change on bet button, unsuccessful as yet*/
   background-color: rgb(243, 190, 35);
+  color:aqua;
 }

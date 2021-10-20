@@ -1,160 +1,25 @@
-/*css page for round 1 and double jeopardy*/
-body {
-  background-color: rgb(12, 65, 220);
-}
-
-/*set up score boxes and round header*/
-.headerboxes {
-  display: grid;
-  grid-template-columns: 2fr 5fr 2fr;
-  align-content: center;
-}
-
-#titles {
-  /*placing round title*/
-  grid-column: 2;
-}
-
-h1 {
-  /*centering and coloring round title*/
+.board {
   display: flex;
-  font-size: 300%;
-  position: absolute;
-  position: static;
-  justify-content: center;
-  color: yellow;
-}
-
-h2 {
-  /*centering and coloring player turn box*/
-  display: flex;
-  position: relative;
-  justify-content: center;
-  color: yellow;
-}
-
-#p1score {
-  /* first score box*/
-  padding: 0;
-  color: red;
-  grid-column-start: 1;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: 200%;
-  border: 2px solid black;
-}
-
-#p2score {
-  /*second score box*/
-  color: red;
-  grid-column-start: 3;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: 200%;
-  border: 2px solid black;
+  justify-content: space-around;
 }
 
 .table {
-  /*score board*/
   display: grid;
-  grid-template-rows: repeat(6, 10vh) 1fr;
-  color: yellow;
-  font-size: 200%;
-  border: 5px solid black;
-  height: 1fr;
-}
-
-#row1 {
-  /*category row*/
-  grid-row: 0;
-  display: flex;
-  flex-wrap: nowrap;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border: 2px solid black;
+  border-radius: 1%;
   align-items: center;
-  justify-content: space-around;
-  border-bottom: 3px solid black;
+  justify-items: center;
+  width: 80vw;
+  height: 50vh;
 }
 
-#row2 {
-  /*first score row*/
-  grid-row-start: 2;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: 3px solid black;
+#rowOne {
+  border-bottom: 2px dashed black;
 }
 
-#row3 {
-  /*second score row*/
-  grid-row-start: 3;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: 3px solid black;
-}
-
-#row4 {
-  /*third score row*/
-  grid-row-start: 4;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: 3px solid black;
-}
-
-#row5 {
-  /*fourth score row*/
-  grid-row-start: 5;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-around;
-  border-bottom: 3px solid black;
-}
-
-#row6 {
-  /*fifth score row*/
-  grid-row-start: 6;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.guessOrPass {
-  /*guess and pass boxes*/
-  color: yellow;
-  font-size: 200%;
-  display: grid;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  justify-content: center;
-  text-align: center;
-  padding-top: 3vh;
-  padding-bottom: 5vh;
-}
-
-#guess {
-  /*guess box border*/
-  border: 1px solid black;
-  grid-column-start: 2;
-}
-
-#pass {
-  /*pass box border*/
-  border: 1px solid black;
-  grid-column-start: 3;
-}
-
-#nextPage {
-  /*next page link*/
-  display: flex;
-  flex-direction: row-reverse;
-  font-size: 200%;
-  color: black;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+span > div {
+  border: 2px dashed black;
+  border-radius: 20%;
 }
