@@ -1,10 +1,21 @@
 /* unused id, reference for color palette*/
 #colorBox {
-  color: rgb(255, 254, 189);
-  color: rgb(247, 206, 101);
-  color: rgb(147, 12, 16);
-  color: rgb(41, 0, 0);
-  color: rgb(3, 3, 3);
+  /*illusion */
+  color: rgb(189, 127, 209);
+  /*enchantment*/
+  color: rgb(149, 215, 145);
+  /* abjuration*/
+  color: rgb(213, 208, 138);
+  /*conjuration*/
+  color: rgb(139, 188, 213);
+  /*transmutation*/
+  color: rgb(216, 189, 147);
+  /*divination*/
+  color: rgb(196, 196, 196);
+  /*necromancy*/
+  color: rgb(141, 141, 141);
+  /*evocation*/
+  color: rgb(211, 129, 129);
 }
 
 .headerboxes {
@@ -30,48 +41,84 @@
 }
 
 body {
-  background-color: rgb(41, 0, 0);
+  background-color: darkred;
   color: white;
 }
 
+/* flexbox to center board */
 .board {
   display: flex;
   justify-content: space-around;
 }
 
+/* actual board */
 .table {
-  display: grid;
+  display: grid; /*grid display makes a nice even board*/
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
   border: 2px solid black;
   border-radius: 1%;
   color: rgb(3, 3, 3);
-  background-color: rgb(147, 12, 16);
+  background-color: rgb(78, 53, 36);
   align-items: center;
   justify-items: center;
   width: 80vw;
-  height: 50vh;
+  height: 60vh;
 }
 
 span > div {
   border: 2px solid black;
   border-radius: 20%;
   padding: 4%;
+  width: fit-content;
+  font-size: 2vw;
   background-color: rgb(247, 206, 101);
+}
+
+#catOne {
+  /*abjuration*/
+  background-color: rgb(213, 208, 138);
+}
+
+#catTwo {
+  /*conjuration*/
+  background-color: rgb(139, 188, 213);
+}
+
+#catThree {
+  /*divination*/
+  background-color: rgb(196, 196, 196);
+}
+
+#catFour {
+  /*enchantment*/
+  background-color: rgb(149, 215, 145);
+}
+
+#catFive {
+  /*evocation*/
+  background-color: rgb(211, 129, 129);
+}
+
+#catSix {
+  /*illusion*/
+  background-color: rgb(189, 127, 209);
 }
 
 .guessOrPass {
   display: flex;
   align-content: center;
   justify-content: space-around;
-  font-size: 300%;
+  font-size: 4vh;
   padding-top: 2vh;
+  width:fit-content;
+  padding: 2%
 }
 
 #guess {
   border: 2px solid black;
   border-radius: 50%;
-  padding: 1%;
+  padding: 2%;
   align-content: center;
   background-color: rgb(3, 3, 3);
 }
@@ -79,7 +126,7 @@ span > div {
 #pass {
   border: 2px solid black;
   border-radius: 50%;
-  padding: 1%;
+  padding: 2%;
   align-content: center;
   background-color: rgb(3, 3, 3);
 }
