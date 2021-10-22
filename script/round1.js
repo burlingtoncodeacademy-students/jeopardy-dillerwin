@@ -12,20 +12,24 @@ let button = document.querySelectorAll(`.question`);
 //forEach loop that turns all question boxes into clickables
 button.forEach((element) =>
   element.addEventListener("click", (event) => {
-    modal.style.display = "block";
+    // want to collect id of clicked item
+    let questId = event.target.id;
+    console.log(questId);
+    //then pass that info through json file
+    fetch(`script/questions.json`)
+      .then((res) => res.json())
+      .then((data) => {
+        if (document.URL.indexOf(`round1.html`) >= 0) {
+          console.log(data[questId[answer]]);
+        }
+        if (document.URL.indexOf(`doubleJeopardy.html`) >= 0) {
+          console.log(data[`double jeopardy`]);
+        }
+
+        modal.style.display = "block";
+      });
   })
 );
-
-// //opens modal question box on click
-// cat1line1.addEventListener("click", () => {
-//   modal.style.display = "block";
-//   modalContent.textContent = `Category One $100 question`;
-// });
-
-// cat2line1.addEventListener("click", () => {
-//   modal.style.display = "block";
-//   modalContent.textContent = `Category Two $100 question`;
-// });
 
 // closes modal box on outside click
 window.addEventListener("click", (event) => {
