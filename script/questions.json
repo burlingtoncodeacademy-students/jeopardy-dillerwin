@@ -1,66 +1,306 @@
 {
   "round one": [
-    { "answer": "sample answer", "cost": "100$", "category": "one" },
-    { "answer": "sample answer", "cost": "100$", "category": "two" },
-    { "answer": "sample answer", "cost": "100$", "category": "three" },
-    { "answer": "sample answer", "cost": "100$", "category": "four" },
-    { "answer": "sample answer", "cost": "100$", "category": "five" },
-    { "answer": "sample answer", "cost": "100$", "category": "six" },
-    { "answer": "sample answer", "cost": "200$", "category": "one" },
-    { "answer": "sample answer", "cost": "200$", "category": "two" },
-    { "answer": "sample answer", "cost": "200$", "category": "three" },
-    { "answer": "sample answer", "cost": "200$", "category": "four" },
-    { "answer": "sample answer", "cost": "200$", "category": "five" },
-    { "answer": "sample answer", "cost": "200$", "category": "six" },
-    { "answer": "sample answer", "cost": "300$", "category": "one" },
-    { "answer": "sample answer", "cost": "300$", "category": "two" },
-    { "answer": "sample answer", "cost": "300$", "category": "three" },
-    { "answer": "sample answer", "cost": "300$", "category": "four" },
-    { "answer": "sample answer", "cost": "300$", "category": "five" },
-    { "answer": "sample answer", "cost": "300$", "category": "six" },
-    { "answer": "sample answer", "cost": "400$", "category": "one" },
-    { "answer": "sample answer", "cost": "400$", "category": "two" },
-    { "answer": "sample answer", "cost": "400$", "category": "three" },
-    { "answer": "sample answer", "cost": "400$", "category": "four" },
-    { "answer": "sample answer", "cost": "400$", "category": "five" },
-    { "answer": "sample answer", "cost": "400$", "category": "six" },
-    { "answer": "sample answer", "cost": "500$", "category": "one" },
-    { "answer": "sample answer", "cost": "500$", "category": "two" },
-    { "answer": "sample answer", "cost": "500$", "category": "three" },
-    { "answer": "sample answer", "cost": "500$", "category": "four" },
-    { "answer": "sample answer", "cost": "500$", "category": "five" },
-    { "answer": "sample answer", "cost": "500$", "category": "six" }
+    {
+      "answer": "category 1 100$ sample answer",
+      "cost": "100$",
+      "category": "one"
+    },
+    {
+      "answer": "category 2 100$ sample answer",
+      "cost": "100$",
+      "category": "two"
+    },
+    {
+      "answer": "category 3 100$ sample answer",
+      "cost": "100$",
+      "category": "three"
+    },
+    {
+      "answer": "category 4 100$ sample answer",
+      "cost": "100$",
+      "category": "four"
+    },
+    {
+      "answer": "category 5 100$ sample answer",
+      "cost": "100$",
+      "category": "five"
+    },
+    {
+      "answer": "category 6 100$ sample answer",
+      "cost": "100$",
+      "category": "six"
+    },
+    {
+      "answer": "category 1 200$ sample answer",
+      "cost": "200$",
+      "category": "one"
+    },
+    {
+      "answer": "category 2 200$ sample answer",
+      "cost": "200$",
+      "category": "two"
+    },
+    {
+      "answer": "category 3 200$ sample answer",
+      "cost": "200$",
+      "category": "three"
+    },
+    {
+      "answer": "category 4 200$ sample answer",
+      "cost": "200$",
+      "category": "four"
+    },
+    {
+      "answer": "category 5 200$ sample answer",
+      "cost": "200$",
+      "category": "five"
+    },
+    {
+      "answer": "category 6 200$ sample answer",
+      "cost": "200$",
+      "category": "six"
+    },
+    {
+      "answer": "category 1 300$ sample answer",
+      "cost": "300$",
+      "category": "one"
+    },
+    {
+      "answer": "category 2 300$ sample answer",
+      "cost": "300$",
+      "category": "two"
+    },
+    {
+      "answer": "category 3 300$ sample answer",
+      "cost": "300$",
+      "category": "three"
+    },
+    {
+      "answer": "category 4 300$ sample answer",
+      "cost": "300$",
+      "category": "four"
+    },
+    {
+      "answer": "category 5 300$ sample answer",
+      "cost": "300$",
+      "category": "five"
+    },
+    {
+      "answer": "category 6 300$ sample answer",
+      "cost": "300$",
+      "category": "six"
+    },
+    {
+      "answer": "category 1 400$ sample answer",
+      "cost": "400$",
+      "category": "one"
+    },
+    {
+      "answer": "category 2 400$ sample answer",
+      "cost": "400$",
+      "category": "two"
+    },
+    {
+      "answer": "category 3 400$ sample answer",
+      "cost": "400$",
+      "category": "three"
+    },
+    {
+      "answer": "category 4 400$ sample answer",
+      "cost": "400$",
+      "category": "four"
+    },
+    {
+      "answer": "category 5 400$ sample answer",
+      "cost": "400$",
+      "category": "five"
+    },
+    {
+      "answer": "category 6 400$ sample answer",
+      "cost": "400$",
+      "category": "six"
+    },
+    {
+      "answer": "category 1 500$ sample answer",
+      "cost": "500$",
+      "category": "one"
+    },
+    {
+      "answer": "category 2 500$ sample answer",
+      "cost": "500$",
+      "category": "two"
+    },
+    {
+      "answer": "category 3 500$ sample answer",
+      "cost": "500$",
+      "category": "three"
+    },
+    {
+      "answer": "category 4 500$ sample answer",
+      "cost": "500$",
+      "category": "four"
+    },
+    {
+      "answer": "category 5 500$ sample answer",
+      "cost": "500$",
+      "category": "five"
+    },
+    {
+      "answer": "category 6 500$ sample answer",
+      "cost": "500$",
+      "category": "six"
+    }
   ],
   "double jeopardy": [
-    { "answer": "sample answer", "cost": "200$", "category": "one" },
-    { "answer": "sample answer", "cost": "200$", "category": "two" },
-    { "answer": "sample answer", "cost": "200$", "category": "three" },
-    { "answer": "sample answer", "cost": "200$", "category": "four" },
-    { "answer": "sample answer", "cost": "200$", "category": "five" },
-    { "answer": "sample answer", "cost": "200$", "category": "six" },
-    { "answer": "sample answer", "cost": "400$", "category": "one" },
-    { "answer": "sample answer", "cost": "400$", "category": "two" },
-    { "answer": "sample answer", "cost": "400$", "category": "three" },
-    { "answer": "sample answer", "cost": "400$", "category": "four" },
-    { "answer": "sample answer", "cost": "400$", "category": "five" },
-    { "answer": "sample answer", "cost": "400$", "category": "six" },
-    { "answer": "sample answer", "cost": "600$", "category": "one" },
-    { "answer": "sample answer", "cost": "600$", "category": "two" },
-    { "answer": "sample answer", "cost": "600$", "category": "three" },
-    { "answer": "sample answer", "cost": "600$", "category": "four" },
-    { "answer": "sample answer", "cost": "600$", "category": "five" },
-    { "answer": "sample answer", "cost": "600$", "category": "six" },
-    { "answer": "sample answer", "cost": "800$", "category": "one" },
-    { "answer": "sample answer", "cost": "800$", "category": "two" },
-    { "answer": "sample answer", "cost": "800$", "category": "three" },
-    { "answer": "sample answer", "cost": "800$", "category": "four" },
-    { "answer": "sample answer", "cost": "800$", "category": "five" },
-    { "answer": "sample answer", "cost": "800$", "category": "six" },
-    { "answer": "sample answer", "cost": "1000$", "category": "one" },
-    { "answer": "sample answer", "cost": "1000$", "category": "two" },
-    { "answer": "sample answer", "cost": "1000$", "category": "three" },
-    { "answer": "sample answer", "cost": "1000$", "category": "four" },
-    { "answer": "sample answer", "cost": "1000$", "category": "five" },
-    { "answer": "sample answer", "cost": "1000$", "category": "six" }
+    {
+      "answer": "double jeopardy category 1 200$ sample answer",
+      "cost": "200$",
+      "category": "one"
+    },
+    {
+      "answer": "double jeopardy category 2 200$ sample answer",
+      "cost": "200$",
+      "category": "two"
+    },
+    {
+      "answer": "double jeopardy category 3 200$ sample answer",
+      "cost": "200$",
+      "category": "three"
+    },
+    {
+      "answer": "double jeopardy category 4 200$ sample answer",
+      "cost": "200$",
+      "category": "four"
+    },
+    {
+      "answer": "double jeopardy category 5 200$ sample answer",
+      "cost": "200$",
+      "category": "five"
+    },
+    {
+      "answer": "double jeopardy category 6 200$ sample answer",
+      "cost": "200$",
+      "category": "six"
+    },
+    {
+      "answer": "double jeopardy category 1 400$ sample answer",
+      "cost": "400$",
+      "category": "one"
+    },
+    {
+      "answer": "double jeopardy category 2 400$ sample answer",
+      "cost": "400$",
+      "category": "two"
+    },
+    {
+      "answer": "double jeopardy category 3 400$ sample answer",
+      "cost": "400$",
+      "category": "three"
+    },
+    {
+      "answer": "double jeopardy category 4 400$ sample answer",
+      "cost": "400$",
+      "category": "four"
+    },
+    {
+      "answer": "double jeopardy category 5 400$ sample answer",
+      "cost": "400$",
+      "category": "five"
+    },
+    {
+      "answer": "double jeopardy category 6 400$ sample answer",
+      "cost": "400$",
+      "category": "six"
+    },
+    {
+      "answer": "double jeopardy category 1 600$ sample answer",
+      "cost": "600$",
+      "category": "one"
+    },
+    {
+      "answer": "double jeopardy category 2 600$ sample answer",
+      "cost": "600$",
+      "category": "two"
+    },
+    {
+      "answer": "double jeopardy category 3 600$ sample answer",
+      "cost": "600$",
+      "category": "three"
+    },
+    {
+      "answer": "double jeopardy category 4 600$ sample answer",
+      "cost": "600$",
+      "category": "four"
+    },
+    {
+      "answer": "double jeopardy category 5 600$ sample answer",
+      "cost": "600$",
+      "category": "five"
+    },
+    {
+      "answer": "double jeopardy category 6 600$ sample answer",
+      "cost": "600$",
+      "category": "six"
+    },
+    {
+      "answer": "double jeopardy category 1 800$ sample answer",
+      "cost": "800$",
+      "category": "one"
+    },
+    {
+      "answer": "double jeopardy category 2 800$ sample answer",
+      "cost": "800$",
+      "category": "two"
+    },
+    {
+      "answer": "double jeopardy category 3 800$ sample answer",
+      "cost": "800$",
+      "category": "three"
+    },
+    {
+      "answer": "double jeopardy category 4 800$ sample answer",
+      "cost": "800$",
+      "category": "four"
+    },
+    {
+      "answer": "double jeopardy category 5 800$ sample answer",
+      "cost": "800$",
+      "category": "five"
+    },
+    {
+      "answer": "double jeopardy category 6 800$ sample answer",
+      "cost": "800$",
+      "category": "six"
+    },
+    {
+      "answer": "double jeopardy category 1 1000$ sample answer",
+      "cost": "1000$",
+      "category": "one"
+    },
+    {
+      "answer": "double jeopardy category 2 1000$ sample answer",
+      "cost": "1000$",
+      "category": "two"
+    },
+    {
+      "answer": "double jeopardy category 3 1000$ sample answer",
+      "cost": "1000$",
+      "category": "three"
+    },
+    {
+      "answer": "double jeopardy category 4 1000$ sample answer",
+      "cost": "1000$",
+      "category": "four"
+    },
+    {
+      "answer": "double jeopardy category 5 1000$ sample answer",
+      "cost": "1000$",
+      "category": "five"
+    },
+    {
+      "answer": "double jeopardy category 6 1000$ sample answer",
+      "cost": "1000$",
+      "category": "six"
+    }
   ]
 }

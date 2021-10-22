@@ -14,69 +14,95 @@
     </h3>
     <div id="titles">
       <h1>Double Jeopardy!</h1>
-      <h2 id="questionAsker">It's ____'s turn to ask the question.</h2>
+      <h2 id="questionAsker">It's Player One's turn to ask the question.</h2>
     </div>
     <h3 id="p2score">
       <div>Player Two Score</div>
       <div id="p2Number">0</div>
     </h3>
   </div>
-  <body>
+  <body id="doubleJep">
     <section class="board">
       <span class="table">
         <!--Category row-->
-        <div class="category" id="catOne">Abjuration</div>
-        <div class="category" id="catTwo">Necromancy</div>
-        <div class="category" id="catThree">Transmutation</div>
-        <div class="category" id="catFour">Enchantment</div>
-        <div class="category" id="catFive">Evocation</div>
-        <div class="category" id="catSix">Illusion</div>
+        <div class="doubleCatRow">
+          <div class="category" id="catOne">Category One</div>
+          <div class="category" id="catTwo">Category Two</div>
+          <div class="category" id="catThree">Category Three</div>
+          <div class="category" id="catFour">Category Four</div>
+          <div class="category" id="catFive">Category Five</div>
+          <div class="category" id="catSix">Category Six</div>
+        </div>
 
         <!-- 100$ row-->
-        <div class="oneHundo" id="hundOne">$100</div>
-        <div class="oneHundo" id="hundTwo">$100</div>
-        <div class="oneHundo" id="hundThree">$100</div>
-        <div class="oneHundo" id="hundFour">$100</div>
-        <div class="oneHundo" id="hundFive">$100</div>
-        <div class="oneHundo" id="hundSix">$100</div>
+        <div class="doubleTwoHundred">
+          <div class="question" id="hundOne">$200</div>
+          <div class="question" id="hundTwo">$200</div>
+          <div class="question" id="hundTwo">$200</div>
+          <div class="question" id="hundFour">$200</div>
+          <div class="question" id="hundFive">$200</div>
+          <div class="question" id="hundSix">$200</div>
+        </div>
 
         <!-- 200$ row-->
-        <div class="twoHundo" id="twoHundOne">$200</div>
-        <div class="twoHundo" id="twoHundTwo">$200</div>
-        <div class="twoHundo" id="twoHundThree">$200</div>
-        <div class="twoHundo" id="twoHundFour">$200</div>
-        <div class="twoHundo" id="twoHundFive">$200</div>
-        <div class="twoHundo" id="twoHundSix">$200</div>
+        <div class="doubleFourHundred">
+          <div class="question" id="fourHundOne">$400</div>
+          <div class="question" id="fourHundTwo">$400</div>
+          <div class="question" id="fourHundThree">$400</div>
+          <div class="question" id="fourHundFour">$400</div>
+          <div class="question" id="fourHundFive">$400</div>
+          <div class="question" id="fourHundSix">$400</div>
+        </div>
 
         <!-- class="" id="" 300$ row-->
-        <div class="threeHundo" id="threeHundOne">$300</div>
-        <div class="threeHundo" id="threeHundTwo">$300</div>
-        <div class="threeHundo" id="threeHundThree">$300</div>
-        <div class="threeHundo" id="threeHundFour">$300</div>
-        <div class="threeHundo" id="threeHundFive">$300</div>
-        <div class="threeHundo" id="threeHundSix">$300</div>
+        <div class="doubleSixHundred">
+          <div class="question" id="sixHundOne">$600</div>
+          <div class="question" id="sixHundTwo">$600</div>
+          <div class="question" id="sixHundThree">$600</div>
+          <div class="question" id="sixHundFour">$600</div>
+          <div class="question" id="sixHundFive">$600</div>
+          <div class="question" id="sixHundSix">$600</div>
+        </div>
 
         <!-- class="" id=""400$ row-->
-        <div class="fourHundo" id="fourHundOne">$400</div>
-        <div class="fourHundo" id="fourHundTwo">$400</div>
-        <div class="fourHundo" id="fourHundThree">$400</div>
-        <div class="fourHundo" id="fourHundFour">$400</div>
-        <div class="fourHundo" id="fourHundFive">$400</div>
-        <div class="fourHundo" id="fourHundSix">$400</div>
+        <div class="doubleEightHundred">
+          <div class="question" id="eightHundOne">$800</div>
+          <div class="question" id="eightHundTwo">$800</div>
+          <div class="question" id="eightHundThree">$800</div>
+          <div class="question" id="eightHundHour">$800</div>
+          <div class="question" id="eightHundFive">$800</div>
+          <div class="question" id="eightHundSix">$800</div>
+        </div>
 
         <!-- class="" id="" 500$ row-->
-        <div class="fiveHundo" id="fiveHundOne">$500</div>
-        <div class="fiveHundo" id="fiveHundTwo">$500</div>
-        <div class="fiveHundo" id="fiveHundThree">$500</div>
-        <div class="fiveHundo" id="fiveHundFour">$500</div>
-        <div class="fiveHundo" id="fiveHundFive">$500</div>
-        <div class="fiveHundo" id="fiveHundSix">$500</div>
+        <div class="doubleThousand">
+          <div class="question" id="thousandOne">$1000</div>
+          <div class="question" id="thousandTwo">$1000</div>
+          <div class="question" id="thousandThree">$1000</div>
+          <div class="question" id="thousandFour">$1000</div>
+          <div class="question" id="thousandFive">$1000</div>
+          <div class="question" id="thousandSix">$1000</div>
+        </div>
       </span>
     </section>
-    <section class="guessOrPass">
-      <div id="guess">Guess</div>
-      <div id="pass">Pass</div>
+    <section>
+      <div class="modal" id="questModal">
+        <div id="modalContent">
+          <h1 id="modalText">"Category One 100$ question"</h1>
+          <div id="guessPass">
+            <span id="guess">Guess</span>
+            <span id="pass">Pass</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="guessModal" id="guessBox">
+      <div id="guessContent">
+        <input type="text" id="textBox" />
+        <input type="submit" value="Submit" id="subButt" />
+      </div>
     </section>
   </body>
+  <script src="/script/round1.js"></script>
   <a href="final-jeopardy.html" id="nextPage">Final Jeopardy</a>
 </html>
