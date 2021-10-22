@@ -70,7 +70,6 @@ span > div {
   border: 2px solid black;
   border-radius: 20%;
   padding: 4%;
-  width: fit-content;
   font-size: 2vw;
   background-color: rgb(247, 206, 101);
 }
@@ -111,8 +110,7 @@ span > div {
   justify-content: space-around;
   font-size: 4vh;
   padding-top: 2vh;
-  width:fit-content;
-  padding: 2%
+  padding: 2%;
 }
 
 #guess {
