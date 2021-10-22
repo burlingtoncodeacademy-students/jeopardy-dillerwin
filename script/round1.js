@@ -2,6 +2,7 @@
 let modal = document.getElementById(`questModal`);
 let modalContent = document.getElementById(`modalText`);
 let span = document.getElementById(`close`);
+let questions = document.getElementsByClassName(`question`);
 
 let guessButt = document.getElementById(`guess`);
 let passButt = document.getElementById(`pass`);
@@ -50,7 +51,16 @@ let cat6line3 = document.getElementById(`threeHundSix`);
 let cat6line4 = document.getElementById(`fourHundSix`);
 let cat6line5 = document.getElementById(`fiveHundSix`);
 
-let button = document.getElementsByClassName(`question`);
+let button = document.querySelectorAll(`.question`);
+
+//forEach loop that turns all question boxes into clickables
+button.forEach((element) =>
+  element.addEventListener("click", (event) => {
+    console.log(`clicked`);
+  })
+);
+
+
 
 //opens modal question box on click
 cat1line1.addEventListener("click", () => {
