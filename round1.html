@@ -32,65 +32,70 @@
     <section class="board">
       <span class="table">
         <!--Category row-->
-        <div class="category" id="catOne">Abjuration</div>
-        <div class="category" id="catTwo">Conjuration</div>
-        <div class="category" id="catThree">Divination</div>
-        <div class="category" id="catFour">Enchantment</div>
-        <div class="category" id="catFive">Evocation</div>
-        <div class="category" id="catSix">Illusion</div>
+        <div class="category" id="catOne">Category One</div>
+        <div class="category" id="catTwo">Category Two</div>
+        <div class="category" id="catThree">Category Three</div>
+        <div class="category" id="catFour">Category Four</div>
+        <div class="category" id="catFive">Category Five</div>
+        <div class="category" id="catSix">Category Six</div>
 
         <!-- 100$ row-->
-        <div class="oneHundo" id="hundOne">$100</div>
-        <div class="modal" id="hundOneModal">
-          <div id="modalContent">
-            <p>"Category One 100$ question"</p>
-            <span id="guess">Guess<span>
-            <span id="Pass">Pass</span>
-          </div>
-        </div>
-        <div class="oneHundo" id="hundTwo">$100</div>
-        <div class="oneHundo" id="hundThree">$100</div>
-        <div class="oneHundo" id="hundFour">$100</div>
-        <div class="oneHundo" id="hundFive">$100</div>
-        <div class="oneHundo" id="hundSix">$100</div>
+        <div class="question" id="hundOne">$100</div>
+        <div class="question" id="hundTwo">$100</div>
+        <div class="question" id="hundTwo">$100</div>
+        <div class="question" id="hundFour">$100</div>
+        <div class="question" id="hundFive">$100</div>
+        <div class="question" id="hundSix">$100</div>
 
         <!-- 200$ row-->
-        <div class="twoHundo" id="twoHundOne">$200</div>
-        <div class="twoHundo" id="twoHundTwo">$200</div>
-        <div class="twoHundo" id="twoHundThree">$200</div>
-        <div class="twoHundo" id="twoHundFour">$200</div>
-        <div class="twoHundo" id="twoHundFive">$200</div>
-        <div class="twoHundo" id="twoHundSix">$200</div>
+        <div class="question" id="twoHundOne">$200</div>
+        <div class="question" id="twoHundTwo">$200</div>
+        <div class="question" id="twoHundThree">$200</div>
+        <div class="question" id="twoHundFour">$200</div>
+        <div class="question" id="twoHundFive">$200</div>
+        <div class="question" id="twoHundSix">$200</div>
 
         <!-- class="" id="" 300$ row-->
-        <div class="threeHundo" id="threeHundOne">$300</div>
-        <div class="threeHundo" id="threeHundTwo">$300</div>
-        <div class="threeHundo" id="threeHundThree">$300</div>
-        <div class="threeHundo" id="threeHundFour">$300</div>
-        <div class="threeHundo" id="threeHundFive">$300</div>
-        <div class="threeHundo" id="threeHundSix">$300</div>
+        <div class="question" id="threeHundOne">$300</div>
+        <div class="question" id="threeHundTwo">$300</div>
+        <div class="question" id="threeHundThree">$300</div>
+        <div class="question" id="threeHundFour">$300</div>
+        <div class="question" id="threeHundFive">$300</div>
+        <div class="question" id="threeHundSix">$300</div>
 
         <!-- class="" id=""400$ row-->
-        <div class="fourHundo" id="fourHundOne">$400</div>
-        <div class="fourHundo" id="fourHundTwo">$400</div>
-        <div class="fourHundo" id="fourHundThree">$400</div>
-        <div class="fourHundo" id="fourHundFour">$400</div>
-        <div class="fourHundo" id="fourHundFive">$400</div>
-        <div class="fourHundo" id="fourHundSix">$400</div>
+        <div class="question" id="fourHundOne">$400</div>
+        <div class="question" id="fourHundTwo">$400</div>
+        <div class="question" id="fourHundThree">$400</div>
+        <div class="question" id="fourHundFour">$400</div>
+        <div class="question" id="fourHundFive">$400</div>
+        <div class="question" id="fourHundSix">$400</div>
         <!-- class="" id="" 500$ row-->
-        <div class="fiveHundo" id="fiveHundOne">$500</div>
-        <div class="fiveHundo" id="fiveHundTwo">$500</div>
-        <div class="fiveHundo" id="fiveHundThree">$500</div>
-        <div class="fiveHundo" id="fiveHundFour">$500</div>
-        <div class="fiveHundo" id="fiveHundFive">$500</div>
-        <div class="fiveHundo" id="fiveHundSix">$500</div>
+        <div class="question" id="fiveHundOne">$500</div>
+        <div class="question" id="fiveHundTwo">$500</div>
+        <div class="question" id="fiveHundThree">$500</div>
+        <div class="question" id="fiveHundFour">$500</div>
+        <div class="question" id="fiveHundFive">$500</div>
+        <div class="question" id="fiveHundSix">$500</div>
       </span>
     </section>
-    <!-- <section class="guessOrPass">
-      guess or pass buttons
-      <div id="guess">Guess</div>
-      <div id="pass">Pass</div>
-    </section> -->
+    <section>
+      <div class="modal" id="questModal">
+        <div id="modalContent">
+          <h1>"Category One 100$ question"</h1>
+          <div id="guessPass">
+            <span id="guess">Guess</span>
+            <span id="pass">Pass</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="guessModal" id="guessBox">
+      <div id="guessContent">
+        <input type="text" id="textBox" />
+        <input type="submit" value="Submit" id="subButt" />
+      </div>
+    </section>
   </body>
   <script src="/script/round1.js"></script>
   <!--double jeopardy page link-->
