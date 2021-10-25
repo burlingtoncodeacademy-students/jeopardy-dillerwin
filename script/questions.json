@@ -81,14 +81,6 @@
       { "id": "djTwoHundFour", "answer": "Category 4 200$ answer" },
       { "id": "djTwoHundFive", "answer": "Category 5 200$ answer" },
       { "id": "djTwoHundSix", "answer": "Category 6 200$ answer" }
-    ],
-    "doubleTwoHundred": [
-      { "id": "djTwoHundOne", "answer": "Category 1 200$ answer" },
-      { "id": "djTwoHundTwo", "answer": "Category 2 200$ answer" },
-      { "id": "djTwoHundThree", "answer": "Category 3 200$ answer" },
-      { "id": "djTwoHundFour", "answer": "Category 4 200$ answer" },
-      { "id": "djTwoHundFive", "answer": "Category 5 200$ answer" },
-      { "id": "djTwoHundSix", "answer": "Category 6 200$ answer" }
     ]
   }
 }
