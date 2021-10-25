@@ -1,16 +1,19 @@
 //modal script
 let questModal = document.getElementById(`questModal`);
 let questModalText = document.getElementById(`questModalText`);
-let span = document.getElementById(`close`);
 let questions = document.getElementsByClassName(`question`);
 
+// variables for guess button and guess modal box
 let guessButt = document.getElementById(`guess`);
 let guessModal = document.getElementById(`guessModal`);
 
+//sets up pass button for event listener
 let passButt = document.getElementById(`pass`);
 
+//I'm not sure why this needs to be .question, but it breaks if it isn't
 let button = document.querySelectorAll(`.question`);
 
+//index table for items in json file
 let indexSearch = {
   hundOne: 0,
   hundTwo: 1,
@@ -66,17 +69,22 @@ button.forEach((element) =>
   element.addEventListener("click", (event) => {
     // want to collect id of clicked item
     let questId = event.target.id;
+    // sets round variable
     let round = undefined;
+    //sets itemIndex variable
     let itemIndex = undefined;
+    //fetches itemClass
     let itemClass = event.target.parentElement.className;
+    //disables box from being clicked again
     event.target.style.pointerEvents = "none";
+    //removes text from clicked box
     event.target.textContent = "";
-    console.log(itemClass);
 
     //then pass that info through json file
     fetch(`script/questions.json`)
       .then((res) => res.json())
       .then((data) => {
+        // checks if on round one or double jeopardy
         if (document.URL.indexOf(`round1.html`) >= 0) {
           round = `round one`;
         }
@@ -84,22 +92,35 @@ button.forEach((element) =>
           round = `double jeopardy`;
         }
 
+        //collects question index from indexSearch
         itemIndex = indexSearch[questId];
 
-        console.log(itemIndex);
-
+        //pulls info for question out of json file
         let question = data[round][itemClass][itemIndex][`answer`];
 
+        //changes modal box text to question
         questModalText.textContent = question;
 
+        // throws up modal box
         questModal.style.display = "block";
       });
   })
 );
 
+//set count for page change
+let count = 0;
+
 // closes modal box on outside click
 window.addEventListener("click", (event) => {
   if (event.target === questModal) {
+    //count and if check will send page to double jeopardy if all round one questions have been answered
+    count += 1;
+    if (count >= 30) {
+      console.log(`Leaving page`);
+      // changes page to double jeopardy
+      window.location.href = "doubleJeopardy.html";
+    }
+    console.log(count);
     questModal.style.display = `none`;
   }
 });
@@ -113,4 +134,13 @@ guessButt.addEventListener("click", () => {
 // pass button to pass question to other player
 passButt.addEventListener("click", () => {
   console.log(`passed`);
+  //checks current player
+  currentPlayer = document.getElementById(`questionAsker`);
+  //swaps players based on who just passed
+  if (currentPlayer.textContent.includes(`Player One's`)) {
+    currentPlayer.textContent = `It's Player Two's Turn`;
+  } else {
+    currentPlayer.textContent = `It's Player One's Turn`;
+  }
+  console.log(currentPlayer.textContent);
 });
