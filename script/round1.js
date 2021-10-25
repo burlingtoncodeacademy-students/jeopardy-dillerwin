@@ -47,7 +47,13 @@ let indexSearch = {
   fiveHundFive: 4,
   fiveHundSix: 5,
 
-  // hundOne: 0,
+  djTwoHundOne: 0,
+  djTwoHundTwo: 1,
+  djTwoHundThree: 2,
+  djTwoHundFour: 3,
+  djTwoHundFive: 4,
+  djTwoHundSix: 5,
+
   // hundTwo: 1,
   // hundThree: 2,
   // hundFour: 3,
@@ -74,8 +80,8 @@ button.forEach((element) =>
         if (document.URL.indexOf(`round1.html`) >= 0) {
           round = `round one`;
         }
-        if (document.URL.indexOf(`round2.html`) >= 0) {
-          round = `doubleJep`;
+        if (document.URL.indexOf(`doubleJeopardy.html`) >= 0) {
+          round = `double jeopardy`;
         }
 
         itemIndex = indexSearch[questId];
