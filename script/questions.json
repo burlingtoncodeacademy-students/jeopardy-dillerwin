@@ -1,426 +1,94 @@
 {
-  "round one": [
-    {
-      "hundOne": {
-        "answer": "category 1 100$ sample answer",
-        "cost": "100$",
-        "category": "one"
-      }
-    },
-    {
-      "hundTwo": {
-        "answer": "category 2 100$ sample answer",
-        "cost": "100$",
-        "category": "two"
-      }
-    },
-    {
-      "hundThree": {
-        "answer": "category 3 100$ sample answer",
-        "cost": "100$",
-        "category": "three"
-      }
-    },
-    {
-      "hundFour": {
-        "answer": "category 4 100$ sample answer",
-        "cost": "100$",
-        "category": "four"
-      }
-    },
-    {
-      "hundFive": {
-        "answer": "category 5 100$ sample answer",
-        "cost": "100$",
-        "category": "five"
-      }
-    },
-    {
-      "hundSix": {
-        "answer": "category 6 100$ sample answer",
-        "cost": "100$",
-        "category": "six"
-      }
-    },
-    {
-      "twoHundOne": {
-        "answer": "category 1 200$ sample answer",
-        "cost": "200$",
-        "category": "one"
-      }
-    },
-    {
-      "twoHundTwo": {
-        "answer": "category 2 200$ sample answer",
-        "cost": "200$",
-        "category": "two"
-      }
-    },
-    {
-      "twoHundThree": {
-        "answer": "category 3 200$ sample answer",
-        "cost": "200$",
-        "category": "three"
-      }
-    },
-    {
-      "twoHundFour": {
-        "answer": "category 4 200$ sample answer",
-        "cost": "200$",
-        "category": "four"
-      }
-    },
-    {
-      "twoHundFive": {
-        "answer": "category 5 200$ sample answer",
-        "cost": "200$",
-        "category": "five"
-      }
-    },
-    {
-      "twoHundSix": {
-        "answer": "category 6 200$ sample answer",
-        "cost": "200$",
-        "category": "six"
-      }
-    },
-    {
-      "threeHundOne": {
-        "answer": "category 1 300$ sample answer",
-        "cost": "300$",
-        "category": "one"
-      }
-    },
-    {
-      "threeHundTwo": {
-        "answer": "category 2 300$ sample answer",
-        "cost": "300$",
-        "category": "two"
-      }
-    },
-    {
-      "threeHundThree": {
-        "answer": "category 3 300$ sample answer",
-        "cost": "300$",
-        "category": "three"
-      }
-    },
-    {
-      "threeHundFour": {
-        "answer": "category 4 300$ sample answer",
-        "cost": "300$",
-        "category": "four"
-      }
-    },
-    {
-      "threeHundFive": {
-        "answer": "category 5 300$ sample answer",
-        "cost": "300$",
-        "category": "five"
-      }
-    },
-    {
-      "threeHundSix": {
-        "answer": "category 6 300$ sample answer",
-        "cost": "300$",
-        "category": "six"
-      }
-    },
-    {
-      "fourHundOne": {
-        "answer": "category 1 400$ sample answer",
-        "cost": "400$",
-        "category": "one"
-      }
-    },
-    {
-      "fourHundTwo": {
-        "answer": "category 2 400$ sample answer",
-        "cost": "400$",
-        "category": "two"
-      }
-    },
-    {
-      "fourHundThree": {
-        "answer": "category 3 400$ sample answer",
-        "cost": "400$",
-        "category": "three"
-      }
-    },
-    {
-      "fourHundFour": {
-        "answer": "category 4 400$ sample answer",
-        "cost": "400$",
-        "category": "four"
-      }
-    },
-    {
-      "fourHundFive": {
-        "answer": "category 5 400$ sample answer",
-        "cost": "400$",
-        "category": "five"
-      }
-    },
-    {
-      "fourHundSix": {
-        "answer": "category 6 400$ sample answer",
-        "cost": "400$",
-        "category": "six"
-      }
-    },
-    {
-      "fiveHundOne": {
-        "answer": "category 1 500$ sample answer",
-        "cost": "500$",
-        "category": "one"
-      }
-    },
-    {
-      "fiveHundTwo": {
-        "answer": "category 2 500$ sample answer",
-        "cost": "500$",
-        "category": "two"
-      }
-    },
-    {
-      "fiveHundThree": {
-        "answer": "category 3 500$ sample answer",
-        "cost": "500$",
-        "category": "three"
-      }
-    },
-    {
-      "fiveHundFour": {
-        "answer": "category 4 500$ sample answer",
-        "cost": "500$",
-        "category": "four"
-      }
-    },
-    {
-      "fiveHundFive": {
-        "answer": "category 5 500$ sample answer",
-        "cost": "500$",
-        "category": "five"
-      }
-    },
-    {
-      "fiveHundSix": {
-        "answer": "category 6 500$ sample answer",
-        "cost": "500$",
-        "category": "six"
-      }
-    }
-  ],
-  "double jeopardy": [
-    {
-      "djTwoHundOne": {
-        "answer": "double jeopardy category 1 200$ sample answer",
-        "cost": "200$",
-        "category": "one"
-      }
-    },
-    {
-      "djTwoHundTwo": {
-        "answer": "double jeopardy category 2 200$ sample answer",
-        "cost": "200$",
-        "category": "two"
-      }
-    },
-    {
-      "djTwoHundThree": {
-        "answer": "double jeopardy category 3 200$ sample answer",
-        "cost": "200$",
-        "category": "three"
-      }
-    },
-    {
-      "djTwoHundFour": {
-        "answer": "double jeopardy category 4 200$ sample answer",
-        "cost": "200$",
-        "category": "four"
-      }
-    },
-    {
-      "djTwoHundFive": {
-        "answer": "double jeopardy category 5 200$ sample answer",
-        "cost": "200$",
-        "category": "five"
-      }
-    },
-    {
-      "djTwoHundSix": {
-        "answer": "double jeopardy category 6 200$ sample answer",
-        "cost": "200$",
-        "category": "six"
-      }
-    },
-    {
-      "djFourHundOne": {
-        "answer": "double jeopardy category 1 400$ sample answer",
-        "cost": "400$",
-        "category": "one"
-      }
-    },
-    {
-      "djFourHundTwo": {
-        "answer": "double jeopardy category 2 400$ sample answer",
-        "cost": "400$",
-        "category": "two"
-      }
-    },
-    {
-      "djFourHundThree": {
-        "answer": "double jeopardy category 3 400$ sample answer",
-        "cost": "400$",
-        "category": "three"
-      }
-    },
-    {
-      "djFourHundFour": {
-        "answer": "double jeopardy category 4 400$ sample answer",
-        "cost": "400$",
-        "category": "four"
-      }
-    },
-    {
-      "djFourHundFive": {
-        "answer": "double jeopardy category 5 400$ sample answer",
-        "cost": "400$",
-        "category": "five"
-      }
-    },
-    {
-      "djFourHundSix": {
-        "answer": "double jeopardy category 6 400$ sample answer",
-        "cost": "400$",
-        "category": "six"
-      }
-    },
-    {
-      "djSixHundOne": {
-        "answer": "double jeopardy category 1 600$ sample answer",
-        "cost": "600$",
-        "category": "one"
-      }
-    },
-    {
-      "djSixHundTwo": {
-        "answer": "double jeopardy category 2 600$ sample answer",
-        "cost": "600$",
-        "category": "two"
-      }
-    },
-    {
-      "djSixHundThree": {
-        "answer": "double jeopardy category 3 600$ sample answer",
-        "cost": "600$",
-        "category": "three"
-      }
-    },
-    {
-      "djSixHundFour": {
-        "answer": "double jeopardy category 4 600$ sample answer",
-        "cost": "600$",
-        "category": "four"
-      }
-    },
-    {
-      "djSixHundFive": {
-        "answer": "double jeopardy category 5 600$ sample answer",
-        "cost": "600$",
-        "category": "five"
-      }
-    },
-    {
-      "djSixHundSix": {
-        "answer": "double jeopardy category 6 600$ sample answer",
-        "cost": "600$",
-        "category": "six"
-      }
-    },
-    {
-      "djEightHundOne": {
-        "answer": "double jeopardy category 1 800$ sample answer",
-        "cost": "800$",
-        "category": "one"
-      }
-    },
-    {
-      "djEightHundTwo": {
-        "answer": "double jeopardy category 2 800$ sample answer",
-        "cost": "800$",
-        "category": "two"
-      }
-    },
-    {
-      "djEightHundThree": {
-        "answer": "double jeopardy category 3 800$ sample answer",
-        "cost": "800$",
-        "category": "three"
-      }
-    },
-    {
-      "djEightHundFour": {
-        "answer": "double jeopardy category 4 800$ sample answer",
-        "cost": "800$",
-        "category": "four"
-      }
-    },
-    {
-      "djEightHundFive": {
-        "answer": "double jeopardy category 5 800$ sample answer",
-        "cost": "800$",
-        "category": "five"
-      }
-    },
-    {
-      "djEightHundSix": {
-        "answer": "double jeopardy category 6 800$ sample answer",
-        "cost": "800$",
-        "category": "six"
-      }
-    },
-    {
-      "djThousandOne": {
-        "answer": "double jeopardy category 1 1000$ sample answer",
-        "cost": "1000$",
-        "category": "one"
-      }
-    },
-    {
-      "djThousandTwo": {
-        "answer": "double jeopardy category 2 1000$ sample answer",
-        "cost": "1000$",
-        "category": "two"
-      }
-    },
-    {
-      "djThousandThree": {
-        "answer": "double jeopardy category 3 1000$ sample answer",
-        "cost": "1000$",
-        "category": "three"
-      }
-    },
-    {
-      "djThousandFour": {
-        "answer": "double jeopardy category 4 1000$ sample answer",
-        "cost": "1000$",
-        "category": "four"
-      }
-    },
-    {
-      "djThousandFive": {
-        "answer": "double jeopardy category 5 1000$ sample answer",
-        "cost": "1000$",
-        "category": "five"
-      }
-    },
-    {
-      "djThousandSix": {
-        "answer": "double jeopardy category 6 1000$ sample answer",
-        "cost": "1000$",
-        "category": "six"
-      }
-    }
-  ]
+  "round one": {
+    "oneHundred": [
+      { "id": "hundOne", "answer": "Category 1 100$ answer" },
+      { "id": "hundTwo", "answer": "Category 2 100$ answer" },
+      { "id": "hundThree", "answer": "Category 3 100$ answer" },
+      { "id": "hundFour", "answer": "Category 4 100$ answer" },
+      { "id": "hundFive", "answer": "Category 5 100$ answer" },
+      { "id": "hundSix", "answer": "Category 6 100$ answer" }
+    ],
+    "twoHundred": [
+      { "id": "twoHundOne", "answer": "Category 1 200$ answer" },
+      { "id": "twoHundTwo", "answer": "Category 2 200$ answer" },
+      { "id": "twoHundThree", "answer": "Category 3 200$ answer" },
+      { "id": "twoHundFour", "answer": "Category 4 200$ answer" },
+      { "id": "twoHundFive", "answer": "Category 5 200$ answer" },
+      { "id": "twoHundSix", "answer": "Category 6 200$ answer" }
+    ],
+    "threeHundred": [
+      { "id": "threeHundOne", "answer": "Category 1 300$ answer" },
+      { "id": "threeHundTwo", "answer": "Category 2 300$ answer" },
+      { "id": "threeHundThree", "answer": "Category 3 300$ answer" },
+      { "id": "threeHundFour", "answer": "Category 4 300$ answer" },
+      { "id": "threeHundFive", "answer": "Category 5 300$ answer" },
+      { "id": "threeHundSix", "answer": "Category 6 300$ answer" }
+    ],
+    "fourHundred": [
+      { "id": "fourHundOne", "answer": "Category 1 400$ answer" },
+      { "id": "fourHundTwo", "answer": "Category 2 400$ answer" },
+      { "id": "fourHundThree", "answer": "Category 3 400$ answer" },
+      { "id": "fourHundFour", "answer": "Category 4 400$ answer" },
+      { "id": "fourHundFive", "answer": "Category 5 400$ answer" },
+      { "id": "fourHundSix", "answer": "Category 6 400$ answer" }
+    ],
+    "fiveHundred": [
+      { "id": "fiveHundOne", "answer": "Category 1 500$ answer" },
+      { "id": "fiveHundTwo", "answer": "Category 2 500$ answer" },
+      { "id": "fiveHundThree", "answer": "Category 3 500$ answer" },
+      { "id": "fiveHundFour", "answer": "Category 4 500$ answer" },
+      { "id": "fiveHundFive", "answer": "Category 5 500$ answer" },
+      { "id": "fiveHundSix", "answer": "Category 6 500$ answer" }
+    ]
+  },
+  "double jeopardy": {
+    "doubleTwoHundred": [
+      { "id": "djTwoHundOne", "answer": "Category 1 200$ answer" },
+      { "id": "djTwoHundTwo", "answer": "Category 2 200$ answer" },
+      { "id": "djTwoHundThree", "answer": "Category 3 200$ answer" },
+      { "id": "djTwoHundFour", "answer": "Category 4 200$ answer" },
+      { "id": "djTwoHundFive", "answer": "Category 5 200$ answer" },
+      { "id": "djTwoHundSix", "answer": "Category 6 200$ answer" }
+    ],
+    "doubleFourHundred": [
+      { "id": "djTwoHundOne", "answer": "Category 1 200$ answer" },
+      { "id": "djTwoHundTwo", "answer": "Category 2 200$ answer" },
+      { "id": "djTwoHundThree", "answer": "Category 3 200$ answer" },
+      { "id": "djTwoHundFour", "answer": "Category 4 200$ answer" },
+      { "id": "djTwoHundFive", "answer": "Category 5 200$ answer" },
+      { "id": "djTwoHundSix", "answer": "Category 6 200$ answer" }
+    ],
+    "doubleSixHundred": [
+      { "id": "djTwoHundOne", "answer": "Category 1 200$ answer" },
+      { "id": "djTwoHundTwo", "answer": "Category 2 200$ answer" },
+      { "id": "djTwoHundThree", "answer": "Category 3 200$ answer" },
+      { "id": "djTwoHundFour", "answer": "Category 4 200$ answer" },
+      { "id": "djTwoHundFive", "answer": "Category 5 200$ answer" },
+      { "id": "djTwoHundSix", "answer": "Category 6 200$ answer" }
+    ],
+    "doubleEightHundred": [
+      { "id": "djTwoHundOne", "answer": "Category 1 200$ answer" },
+      { "id": "djTwoHundTwo", "answer": "Category 2 200$ answer" },
+      { "id": "djTwoHundThree", "answer": "Category 3 200$ answer" },
+      { "id": "djTwoHundFour", "answer": "Category 4 200$ answer" },
+      { "id": "djTwoHundFive", "answer": "Category 5 200$ answer" },
+      { "id": "djTwoHundSix", "answer": "Category 6 200$ answer" }
+    ],
+    "doubleThousand": [
+      { "id": "djTwoHundOne", "answer": "Category 1 200$ answer" },
+      { "id": "djTwoHundTwo", "answer": "Category 2 200$ answer" },
+      { "id": "djTwoHundThree", "answer": "Category 3 200$ answer" },
+      { "id": "djTwoHundFour", "answer": "Category 4 200$ answer" },
+      { "id": "djTwoHundFive", "answer": "Category 5 200$ answer" },
+      { "id": "djTwoHundSix", "answer": "Category 6 200$ answer" }
+    ],
+    "doubleTwoHundred": [
+      { "id": "djTwoHundOne", "answer": "Category 1 200$ answer" },
+      { "id": "djTwoHundTwo", "answer": "Category 2 200$ answer" },
+      { "id": "djTwoHundThree", "answer": "Category 3 200$ answer" },
+      { "id": "djTwoHundFour", "answer": "Category 4 200$ answer" },
+      { "id": "djTwoHundFive", "answer": "Category 5 200$ answer" },
+      { "id": "djTwoHundSix", "answer": "Category 6 200$ answer" }
+    ]
+  }
 }
