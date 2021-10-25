@@ -1,0 +1,99 @@
+header {
+  /*defines header box and location*/
+  display: flex;
+  justify-content: center;
+  color: yellow;
+  font-size: 200%;
+}
+
+body {
+  /*defines background color*/
+  background-color: rgb(12, 65, 220);
+}
+
+.contentBox {
+  /* Defines box for final jeopardy question */
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1vw;
+}
+
+#mainContent {
+  /*box for category and question*/
+  display: grid;
+  width: 50vw;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 8fr;
+  border: 0.5vw solid black;
+  text-align: center;
+  color: yellow;
+}
+
+.contentGrid:first-child {
+  /*border for category box*/
+  border-bottom: 0.2vw solid black;
+  font-size: 300%;
+}
+
+.contentGrid:last-child {
+  /*border for question box*/
+  display: flex;
+  word-wrap: break-word;
+  font-size: 400%;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottomContent {
+  /* amount/answer/bet box*/
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1vw;
+  font-size: 200%;
+  color: yellow;
+}
+
+.buttonBoxes {
+  /*grid setup for amount/answer/bet*/
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+#amount_answer {
+  /*amount/answer boxes*/
+  display: flex;
+  flex-direction: column;
+  border: 0.1vh solid black;
+  border-right: none;
+  font-size: 150%;
+}
+
+#amount {
+  /*amount box border*/
+  border: 0.1vh solid black;
+}
+
+#answer {
+  /*answer box border*/
+  border: 0.1vh solid black;
+}
+
+#bet {
+  /*bet box and border*/
+  padding-top: 2vh;
+  display: flex;
+  border: 0.2vw solid black;
+  border-left: 0.2vw solid black;
+  border-right: 0.2vw solid black;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 200%;
+}
+
+#bet.hover {
+  /*attempt at hover color change on bet button, unsuccessful as yet*/
+  background-color: rgb(243, 190, 35);
+  color:aqua;
+}

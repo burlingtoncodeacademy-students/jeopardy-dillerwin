@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeopardy</title>
+    <link rel="stylesheet" href="/css_files/game.css" />
+  </head>
+
+  <header class="headerboxes">
+    <!--box for header top of screen-->
+    <h3 id="p1score">
+      <!--player one score box-->
+      <div>Player One Score</div>
+      <div id="p1Number">0</div>
+    </h3>
+    <div id="titles">
+      <!--center title-->
+      <h1 class="title">Round One!</h1>
+      <h2 id="questionAsker">It's Player One's turn to ask the question</h2>
+    </div>
+    <h3 id="p2score">
+      <!--play two score box-->
+      <div>Player Two Score</div>
+      <div id="p2Number">0</div>
+    </h3>
+  </header>
+
+  <body id="round1">
+    <!-- define jeopardy board-->
+    <section class="board">
+      <span class="table">
+        <!--Category row-->
+        <div class="catRow">
+          <div class="category" id="catOne">Category One</div>
+          <div class="category" id="catTwo">Category Two</div>
+          <div class="category" id="catThree">Category Three</div>
+          <div class="category" id="catFour">Category Four</div>
+          <div class="category" id="catFive">Category Five</div>
+          <div class="category" id="catSix">Category Six</div>
+        </div>
+
+        <!-- 100$ row-->
+        <div class="oneHundred">
+          <div class="question" id="hundOne">$100</div>
+          <div class="question" id="hundTwo">$100</div>
+          <div class="question" id="hundThree">$100</div>
+          <div class="question" id="hundFour">$100</div>
+          <div class="question" id="hundFive">$100</div>
+          <div class="question" id="hundSix">$100</div>
+        </div>
+
+        <!-- 200$ row-->
+        <div class="twoHundred">
+          <div class="question" id="twoHundOne">$200</div>
+          <div class="question" id="twoHundTwo">$200</div>
+          <div class="question" id="twoHundThree">$200</div>
+          <div class="question" id="twoHundFour">$200</div>
+          <div class="question" id="twoHundFive">$200</div>
+          <div class="question" id="twoHundSix">$200</div>
+        </div>
+
+        <!-- 300$ row-->
+        <div class="threeHundred">
+          <div class="question" id="threeHundOne">$300</div>
+          <div class="question" id="threeHundTwo">$300</div>
+          <div class="question" id="threeHundThree">$300</div>
+          <div class="question" id="threeHundFour">$300</div>
+          <div class="question" id="threeHundFive">$300</div>
+          <div class="question" id="threeHundSix">$300</div>
+        </div>
+
+        <!--400$ row-->
+        <div class="fourHundred">
+          <div class="question" id="fourHundOne">$400</div>
+          <div class="question" id="fourHundTwo">$400</div>
+          <div class="question" id="fourHundThree">$400</div>
+          <div class="question" id="fourHundFour">$400</div>
+          <div class="question" id="fourHundFive">$400</div>
+          <div class="question" id="fourHundSix">$400</div>
+        </div>
+
+        <!--500$ row-->
+        <div class="fiveHundred">
+          <div class="question" id="fiveHundOne">$500</div>
+          <div class="question" id="fiveHundTwo">$500</div>
+          <div class="question" id="fiveHundThree">$500</div>
+          <div class="question" id="fiveHundFour">$500</div>
+          <div class="question" id="fiveHundFive">$500</div>
+          <div class="question" id="fiveHundSix">$500</div>
+        </div>
+      </span>
+    </section>
+    <section>
+      <!-- modal box section -->
+      <div class="modal" id="questModal">
+        <div id="modalContent">
+          <h1 id="questModalText">"Category One 100$ question"</h1>
+          <div id="guessPass">
+            <span id="guess">Guess</span>
+            <span id="pass">Pass</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- question box with input -->
+    <section class="modal" id="guessModal">
+      <div id="guessContent">
+        <input type="text" id="textBox" />
+        <input type="submit" value="Submit" id="subButt" />
+      </div>
+    </section>
+  </body>
+  <script src="/script/jeopardy.js"></script>
+  <!--double jeopardy page link-->
+  <a href="doubleJeopardy.html" id="nextPage">Double Jeopardy</a>
+</html>

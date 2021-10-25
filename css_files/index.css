@@ -1,0 +1,47 @@
+body {
+  /* background picture */
+  background-image: url("../pictures/jeopardyLogo.bmp");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+h1 {
+  /*section for heading*/
+  color: white;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: space-around;
+  font-size: 20vh;
+  text-shadow: 2px 0 black;
+  text-shadow: -2px 0 black;
+  text-shadow: 0 2px black;
+  text-shadow: 0 -2px black;
+  position: relative;
+  bottom: 1cm;
+}
+
+div {
+  /* div around start box */
+  display: flex;
+  justify-content: center;
+}
+
+.start {
+  /*start button*/
+  border: 5px solid black;
+  color: white;
+  font-size: 600%;
+  background-color: rgb(37, 39, 137);
+  position: relative;
+  top: 10vw;
+}
+
+a {
+  /* making start link not look like hyperlink*/
+  color: white;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
